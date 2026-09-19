@@ -1,1 +1,1 @@
-# rock-paper-scissors-containerized
+# odin-rock-paper-scissors
