@@ -14,8 +14,7 @@ In the root directory of the project, create a file named `Dockerfile` with the 
 FROM nginx:alpine
 
 # Copy static assets to Nginx default public directory
-COPY index.html /usr/share/nginx/html/
-COPY game.js /usr/share/nginx/html/
+COPY index.html style.css game.js /usr/share/nginx/html/
 
 EXPOSE 80
 
