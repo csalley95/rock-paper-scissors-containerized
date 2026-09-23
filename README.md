@@ -26,7 +26,7 @@ CMD ["nginx", "-g", "daemon off;"]
 Run the following command in the project directory:
 
 ```bash
-docker build -t odin-rock-paper-scissors .
+docker build -t rock-paper-scissors-containerized .
 ```
 
 ### 3\. Run the Container
@@ -34,7 +34,7 @@ docker build -t odin-rock-paper-scissors .
 Start a container mapping host port `8080` to container port `80`:
 
 ```bash
-docker run -d --name rps-game -p 8080:80 odin-rock-paper-scissors
+docker run -d --name rps-game -p 8080:80 rock-paper-scissors-containerized
 ```
 
 Access the application in your browser at `http://localhost:8080`.
